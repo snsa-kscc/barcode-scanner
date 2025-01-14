@@ -55,7 +55,7 @@ function App() {
                         _a.label = 1;
                     case 1:
                         _a.trys.push([1, 4, , 5]);
-                        return [4 /*yield*/, fetch("http://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472")];
+                        return [4 /*yield*/, fetch("https://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472")];
                     case 2:
                         response = _a.sent();
                         if (!response.ok) {
@@ -83,7 +83,7 @@ function App() {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 3, , 4]);
-                    return [4 /*yield*/, fetch("http://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472")];
+                    return [4 /*yield*/, fetch("https://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472")];
                 case 1:
                     response = _a.sent();
                     if (!response.ok) {

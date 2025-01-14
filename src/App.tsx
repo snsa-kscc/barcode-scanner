@@ -14,7 +14,7 @@ function App() {
       }
 
       try {
-        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/54491472`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -31,7 +31,7 @@ function App() {
 
   const handleFetchData = async () => {
     try {
-      const response = await fetch(`https://pokeapi.co/api/v2/pokemon/ditto`);
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/54491472`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
