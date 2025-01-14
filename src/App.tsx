@@ -14,7 +14,7 @@ function App() {
       }
 
       try {
-        const response = await fetch(`http://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472`);
+        const response = await fetch(`https://api.tenisliga.com/api/BarcodeScanner/GetPricesForBarcode/54491472`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
